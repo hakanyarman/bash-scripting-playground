@@ -1,3 +1,3 @@
 # bash-scripting-playground
 
-Linux, Bash Scripting ve System Administration öğrenirken yazdığım küçük scriptler.
+Small scripts written while learning Linux, Bash Scripting, and System Administration.
