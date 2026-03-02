@@ -20,6 +20,7 @@ if [ -f "$FILE" ]; then
     SIZE=$(ls -lh "$FILE" | awk '{print $5}')
     echo "Size: $SIZE"
     
+    # -n: no newline (don't go to next line)
     echo -n "Permissions: "
     [ -r "$FILE" ] && echo -n "Read "
     [ -w "$FILE" ] && echo -n "Write "
